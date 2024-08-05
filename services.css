@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .head {
+     background: linear-gradient(rgba(25, 25, 25, 60%), rgba(25, 25, 25, 10%)),
+    url(image/imgg1.jpg);
+    width: 100%;
+    height: 440px;
+    background-position:right;
+    margin-bottom:9vh;
+  }
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav .mainMenu {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav .mainMenu li a {
+    display: inline-block;
+    padding: 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  p .btn {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    background: transparent;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  
+  nav .openMenu {
+    font-size: 2rem;
+    margin: 10px;
+    display: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  nav .mainMenu .closeMenu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  nav .logo {
+    margin: 6px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .jom {
+    margin-top: -400px;
+    font-size: 4vw;
+
+  }
+  
+  .lol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    
+  }
+
+  .fun {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:3vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+  
+  }
+  
+  .funn p {
+    margin: 1rem 0;
+    margin-left: 10vh;
+  }
+  
+  .a {
+    font-size: 0.9rem;
+  }
+  
+  .b {
+    font-size: 1.9rem;
+  }
+  
+  .c {
+    font-size: 1.3rem;
+  }
+  
+  .btn2 button {
+    padding: 1rem 2.6rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .m {
+    background: rgb(26, 108, 26);
+    color: white;
+    border: none;
+  }
+  
+  .m:hover {
+    background: rgb(15, 77, 15);
+  }
+  .tar img {
+    width:25vw;
+    height:540px;
+    border-radius:10px;
+    background-position:bottom;
+    margin: 1rem 0;
+  }
+  .imgg {
+    background: url(image/imgg2.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 2vh;
+  }
+  
+  .insert {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .the {
+    font-size:1.7vw;
+  }
+  
+  .btn11 {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 2px white solid;
+    color: white;
+    background: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 3vw;
+  }
+  
+  .btn11:hover {
+    background: rgb(15, 77, 15);
+    border: none;
+  }
+
+  .moree {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    }
+  
+  .moree .q a {
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .moree .inn img {
+    height: 50px;
+    }
+  
+  .moree .s {
+    font-size: 1rem;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    nav .mainMenu {
+      height: 50vh;
+      margin-top: 80px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      transition: top 1s ease;
+      display: none;
+    }
+    nav .mainMenu li a {
+      display: inline-block;
+      padding: 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+    }
+    nav .logo {
+      padding-right: 150px;
+    }
+  
+    nav .mainMenu li a {
+      color: black;
+    }
+  
+    p .btn {
+      padding-top: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 10px;
+      background: transparent;
+      border: 2px black solid;
+      border-radius: 5px;
+      color: black;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+    nav .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: black;
+      padding-left: 150px;
+    }
+    nav .openMenu {
+      display: block;
+    }
+  
+    .on {
+      margin-top: -200px;
+      font-size: 6vw; 
+    }
+  
+    .btnn {
+      margin-top: 15px;
+      font-size: 14px;
+      padding: 8px 20px;
+    }
+  
+    .head {
+        background: linear-gradient(rgba(25, 25, 25, 60%), rgba(25, 25, 25, 10%)),
+        url(image/imgg1.jpg);
+      width: 100%;
+      height: 500px;
+      background-position: center;
+    }
+
+    .jom {
+        margin-top: -350px;
+        font-size: 9vw;
+      }
+
+      .fun {
+        padding: 1rem;
+      }
+
+      .fun {
+        display: flex;
+      flex-direction: column;
+       text-align: center;
+       justify-content: center;
+    }
+  
+    .tar img {
+      width: 80%;
+    }
+  
+    .imgg {
+      height: auto;
+      padding: 2rem 0;
+    }
+  
+    .insert {
+      font-size: 6rem;
+      padding-top: 5vh;
+    }
+  
+    .the {
+      font-size: 3rem;
+    }
+  
+    .btn11 {
+      margin: 2rem 0;
+      
+    }
+
+    .moree {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .moree .q {
+        margin-bottom: 1rem;
+      }
+    
+      .moree .q a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    
+      .moree .inn img {
+        margin: 1rem 0;
+      }
+    
+      .moree .s {
+        margin-top: 1rem;
+      }
+}
+
+@media (max-width: 480px) {
+
+    .a {
+        font-size: 0.5rem;
+      }
+    
+      .b {
+        font-size: 1rem;
+      }
+    
+      .c {
+        font-size: 0.8rem;
+      }
+      .m {
+        font-size: 0.8rem;
+      }
+      .imgg {
+        padding: 1rem 0;
+      }
+    
+      .insert {
+        font-size: 1.2rem;
+      }
+    
+      .the {
+        font-size: 0.8rem;
+      }
+    
+      .btn11 {
+        font-size: 0.8rem;
+      }
+    
+      .q a {
+        font-size: 0.8rem;
+      }
+    
+      .s {
+        font-size: 0.7rem;
+      }
+      .moree .q a {
+          font-size: 0.8rem;
+          margin: 0.5rem 0;
+        }
+      
+        .moree .s {
+          font-size: 0.8rem;
+        }
+      
+        .moree .inn img {
+          height: 40px;
+        }
+}
